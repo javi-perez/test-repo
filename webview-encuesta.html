@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+		<link href="https://m.infojobs.net/styles/common.min.css?v=d41d8cd98f00b204e9800998ecf8427e" type="text/css" rel="stylesheet">
+		<script src="https://m.infojobs.net/js/common.min.js?v=d41d8cd98f00b204e9800998ecf8427e" type="text/javascript"></script>
+	
+		
+	
+	</head>
+
+	
+	<div id="web-view-wrapper">
+		<!-- Inicio cabecera -->
+		<div data-tap-toggle="false" data-position="fixed" data-role="header" data-theme="a" role="banner">
+			<a data-theme="c" onclick="$('#web-view-wrapper').remove();" href="javascript:void();" data-corners="true" data-shadow="true" data-iconshadow="true" data-iconsize="18" data-wrapperels="span">
+				<span>Cerrar</span>
+			</a>
+			<h1 class="ui-title" role="heading" aria-level="1">
+				<img alt="Encontrar trabajo, miles de ofertas de empleo en InfoJobs móvil" src="https://media.infojobs.net/portales/ij/app/pictures/pic-logo-header-mobile.png">
+			</h1>
+
+		</div>
+		<!-- Fin cabecera -->
+		
+		<div id="encuesta-webview" data-role="fieldcontain" data-theme="b" style="font-size:18px;width:80%;margin:0 auto;text-align:center;padding-bottom:60px;">
+			<form id="enviar-encuesta">
+				<fieldset data-role="controlgroup" data-type="vertical">
+					<h3 style="padding:0px;font-weight:400;">
+						Nos gustar&iacute;a saber que necesitas editar de tu perfil para poder ponernos a ello!:
+					</h3>
+					<input id="checkbox1" name="necesidad-modificar" value="Datos personales" data-theme="c" type="checkbox">
+					<label for="checkbox1">
+						Datos personales
+					</label>
+					<input id="checkbox3" name="necesidad-modificar" value="Experiencia" data-theme="c" type="checkbox">
+					<label for="checkbox3">
+						Experiencia
+					</label>
+					<input id="checkbox4" name="necesidad-modificar" value="Estudios" data-theme="c" type="checkbox">
+					<label for="checkbox4">
+						Estudios
+					</label>
+					<input id="checkbox5" name="necesidad-modificar" value="Futuro empleo" data-theme="c" type="checkbox">
+					<label for="checkbox5">
+						Futuro empleo
+					</label>
+					<label for="textarea1" style="margin-top:20px;">
+						¿Hay algo más que te gustaría modificar?
+					</label>
+					<textarea data-theme="b" name="necesidad-open-field" id="textarea1" style="height:100px;font-size:14px;" placeholder=""></textarea>
+				</fieldset>
+			
+        </div>
+		
+		
+		
+		
+		
+		<!-- Inicio footer -->
+		<div id="nav-inferior-encuesta" style="position:fixed;bottom:0;text-align:left;width:100%;z-index:9999;background: linear-gradient(#303030, #000000) repeat scroll 0 0 #303030;border-top:1px solid #000;">
+			<!-- <a href="#">Ir al InfoJobs clasico &raquo;</a> -->
+				<div style="max-width: 20em; margin: auto;">
+					<input type="submit" title="Enviar y cerrar" value="Enviar y cerrar" data-theme="a" id="cerrar-y-enviar-encuesta" class="ui-btn-hidden" aria-disabled="false">
+					</form>
+				</div>
+		</div>
+	</div>
+	</body>
+	
+	
+	
+</html>
